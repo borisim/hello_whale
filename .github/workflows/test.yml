@@ -1,10 +1,10 @@
-ame: test
+name: test
 
 on: [push]
 
 jobs:
     build:
         runs-on: ubuntu-latest
-    steps:
-      -name: test workdir
-       run: pwd
+        steps:
+          - name: test workdir
+            run: pwd
